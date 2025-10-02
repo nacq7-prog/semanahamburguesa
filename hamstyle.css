@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #FFD60A, #FF6B35, #06D6A0);
+    color: #1D1D1D;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #E63946, #118AB2);
+    color: red;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.8em;
+    text-shadow: 2px 2px #1D1D1D;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.promos {
+    padding: 30px;
+}
+
+.promos h2 {
+    color: #E63946;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s, background 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background: #FFD60A;
+}
+
+.menu {
+    background: rgba(255,255,255,0.8);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.menu h2 {
+    color: #118AB2;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+    font-size: 1.2em;
+}
+
+.menu li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.cta {
+    margin: 30px;
+}
+
+.cta button {
+    background: linear-gradient(90deg, #06D6A0, #118AB2);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cta button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(90deg, #FFD60A, #E63946);
+}
+
+footer {
+    background: #1D1D1D;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
